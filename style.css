@@ -1,8 +1,18 @@
 .spaced-listItems {
-  padding-top:7px
-  padding-bottom:7px
+  padding-top:7px;
+  padding-bottom:7px;
 }
 
-  .spaced-items{
+.spaced-items{
     margin-bottom: 10px;
   }
+
+.headerTitle{
+ font-size: 16px;
+ font-family: "Garamond";
+}
+
+.DividerForm{
+  border: soild 5px red;
+  border-radius: 4px;
+}
