@@ -1,11 +1,11 @@
-<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-
+@import url ('https://fonts.googleapis.com/css?family=Montserrat')
 .titlesAndMajorHeadings{
-   font-family:"Montserrat";
+   font-family:Montserrat, Helvatica, sans-serif;
    font-size: 64px;
+   text-aling: center
 }
 
 .subHeadingsAndFooters{
-  font-family:"Verdana";
+  font-family:Verdana, sans-serif;
   
 }
