@@ -7,9 +7,12 @@
    <link rel="icon" type="image/x-icon" href="logo.png">
     
    <link rel="preload" as="image" href="framedPhoto.webp"  fetchpriority="high">
-   <link rel="preload" href="detailing.css" as="style">
-   <link rel="stylesheet" href="layout.css">
-   <link rel="stylesheet" href="detailing.css">
+   <link rel="preload" href="detailing.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+   <link rel="preload" as="style" href="layout.css" onload="this.onload=null;this.rel='stylesheet'">
+   
+   <noscript> <link rel="stylesheet" href="layout.css"> </noscript>
+   <noscript> <link rel="stylesheet" href="detailing.css"> </noscript>
+    
    <style>
       .titleAndHeadings
          {
